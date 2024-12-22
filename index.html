@@ -113,23 +113,25 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="https://www.youtube.com/shorts/uqWzm9F6Tpc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-<!-- End teaser video -->
+<!-- End youtube video -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -139,7 +141,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Vision algorithm-based robotic arm grasping system is one of the robotic arm systems that can be applied to a wide range of scenarios. It uses algorithms to automatically identify the location of the target and guide the robotic arm to grasp it, which has more flexible features than the teachable robotic arm grasping system. However, for some food packages, their transparent packages or reflective materials bring challenges to the recognition of vision algorithms, and traditional vision algorithms cannot achieve high accuracy for these packages. In addition, in the process of robotic arm grasping, the positioning on the z-axis height still requires manual setting of parameters, which may cause errors. Based on the above two problems, we designed a sorting system for food packaging using deep learning algorithms and structured light 3D reconstruction technology. Using a pre-trained MASK R-CNN model to recognize the class of the object in the image and get its 2D coordinates, then using structured light 3D reconstruction technique to calculate its 3D coordinates, and finally after the coordinate system conversion to guide the robotic arm for grasping. After testing, it is shown that the method can fully automate the recognition and grasping of different kinds of food packages with high accuracy. Using this method, it can help food manufacturers to reduce production costs and improve production efficiency.
           </p>
         </div>
       </div>
@@ -187,29 +189,6 @@
 </div>
 </section>
 <!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
 
 
 <!-- Video carousel -->
